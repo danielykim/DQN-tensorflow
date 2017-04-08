@@ -19,14 +19,14 @@ This implementation contains:
 - [gym](https://github.com/openai/gym)
 - [tqdm](https://github.com/tqdm/tqdm)
 - [SciPy](http://www.scipy.org/install.html) or [OpenCV2](http://opencv.org/)
-- [TensorFlow 0.12.0](https://github.com/tensorflow/tensorflow/tree/r0.12)
+- [TensorFlow 0.12.0+](https://github.com/tensorflow/tensorflow/tree/r0.12)
 
 
 ## Usage
 
 First, install prerequisites with:
 
-    $ pip install tqdm gym[all]
+    $ pip install tqdm "gym[atari]==0.7.0"
 
 To train a model for Breakout:
 
